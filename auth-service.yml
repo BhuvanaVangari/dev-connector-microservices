@@ -26,3 +26,5 @@ jwt:
   secret: mySecretKey
   expireMs: 180000
   refreshExpireMs: 180000
+api:
+  profile: http://PROFILE-SERVICE/api/profile
