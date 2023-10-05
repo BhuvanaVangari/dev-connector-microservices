@@ -4,7 +4,7 @@ server:
 spring:
   datasource:
     url: jdbc:mysql://${DB_HOST:localhost}:3306/userdb?createDatabaseIfNotExist=true&useSSL=false&allowPublicKeyRetrieval=true
-    username: root
+    username: newroot
     password: root
     driverClassName: com.mysql.cj.jdbc.Driver
   jpa:
