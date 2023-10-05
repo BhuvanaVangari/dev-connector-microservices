@@ -39,5 +39,5 @@ management:
         include: "*"
 jwt:
   secret: mySecretKey
-  expireMs: 180000
-  refreshExpireMs: 180000
+  expireMs: 7200000
+  refreshExpireMs: 7200000
