@@ -31,6 +31,7 @@ management:
       exposure:
         include: refresh,health,info
 api:
+  auth: http://AUTH-SERVICE/api/auth
+  auth1: http://AUTH-SERVICE/api/auth/user
   experience: http://EXPERIENCE-SERVICE/api/experience
   education: http://EDUCATION-SERVICE/api/education
-  auth: http://AUTH-SERVICE/api/user
